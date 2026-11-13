@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Environment variables & secrets (Never commit API keys)
+.env
+.env.local
+.env.production
+
+# SQLite & generated local runtime artifacts
+*.db
+*.db-journal
+*.db-wal
+backend/app/uploads/*.csv
+backend/app/uploads/*.xlsx
+backend/app/models/*.pkl
+backend/app/reports/*.pdf
+backend/app/reports/*.csv
+backend/app/reports/*.xlsx
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+.DS_Store
